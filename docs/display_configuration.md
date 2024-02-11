@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Display Configuration
-nav_order: 4
+nav_order: 40
 ---
 
 # Display Configuration
