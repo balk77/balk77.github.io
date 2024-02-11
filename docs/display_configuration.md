@@ -25,10 +25,19 @@ The `Label` field can be configured statically in the web interface or dynamical
 The `Unit` field can be configured statically in the web interface or dynamically through MQTT. Unit is optional. It is aligned right in the the display item.
 
 ## Alignment
-The anchor point of the display item on the display can be selected. Default is top left corner of the display with the top left corner of the display item. Choosing Center places the center of the display item at the center of the display.
+The anchor point of the display item on the display can be selected. Default is top left corner of the display with the top left corner of the display item. Choosing Center places the center of the display item at the center of the display. Static configuration.
 
 ## x and y offset
-Position of the display item' anchor point relative to the chosen Alignment anchor point. Scale is always 100 by 100. Choosing for instance a center alignment and an x offset of 50 will place the display item 50% outside the display, on the right side. Values of -100 through 100 are accepted.
+Position of the display item' anchor point relative to the chosen Alignment anchor point. Scale is always 100 by 100. Choosing for instance a center alignment and an x offset of 50 will place the display item 50% outside the display, on the right side. Values of -100 through 100 are accepted. Static configuration, default is 0.
+
+## Fontsize 
+Fontsize; smallest size is 1, largest size is 5. Static configuration.
+
+## Width
+Width of the display item, 1 - 100, required field.
+
+## Rounding
+Number of digits to be shown for numeric values. Note that the Button Plus shows a dot as decimal separator.
 
 ## Section 1 level 1
 `## Section 1 level 1`
