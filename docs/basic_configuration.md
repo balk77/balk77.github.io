@@ -6,4 +6,9 @@ nav_order: 30
 
 # Basic Configuration
 
-x
+## Table of contents
+{: .no_toc .text-delta }
+- TOC
+{:toc}
+
+## Section 1
