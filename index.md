@@ -12,15 +12,22 @@ nav_order: 1
 - TOC
 {:toc}
 
+The Button Plus is a device with a display and with buttons, all configurable.
+
 ## Prerequisites
+The Button Plus communicates through MQTT. It needs an MQTT back-end and a hast most value when combined with a Home Automation system. The requirements are:
+* An MQTT broker
+* A Home Automation system
+* Some technical know-how helps
 
 ## Home Automation
+The Button Plus interacts with your Home Automation system through MQTT. It can show information present in your Home Automation system on the display and buttons, and it can send button clicks to your Home Automation system. There are various Home Automation solutions available; some are used in combination with others.
+
+* [Home Assistant](https://www.home-assistant.io/), open source system that also records the historical state of your sensors and equipment
+* [Domoticz](https://www.domoticz.com/), open source system that also records the historical state of your sensors and equipment
+* [Homey](https://homey.app/), closed source hardware platform for home automation that also records the historical state of your sensors and equipment
+* [IO Broker](https://www.iobroker.net/), open source system
+* [Node Red](https://nodered.org/), open source low code visual flow based automation
 
 ## about MQTT
 
-Installing the hardware
-Basic configuration
-Initial wifi configuration
-Change wifi settings
-Display configuration
-Button configuration
