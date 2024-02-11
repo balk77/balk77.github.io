@@ -4,14 +4,14 @@ title: Template
 nav_order: 99
 ---
 
-# Heading 1
+# Page name (in this case Template)
 {: .no_toc }
-`# Heading 1`
+`# Page name (in this case Template)`
 
 
 ## Table of contents
 {: .no_toc .text-delta }
-1. TOC
+- TOC
 {:toc}
 
 ## Section 1 level 1
