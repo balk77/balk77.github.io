@@ -30,4 +30,5 @@ The Button Plus interacts with your Home Automation system through MQTT. It can 
 * [Node Red](https://nodered.org/), open source low code visual flow based automation. Can be used in combination with the above solutions.
 
 ## about MQTT
+MQTT is a kind of X (fka Twitter) for your IoT devices. Some devices publish their information to the platform and others subscribe to a channel (topic). The MQTT server (broker) can run on your home server or externally. For instance, a temperature sensor can regularly publish a measured value to `homesensors/livingroom/temperaturesensor1/temperature` and also listen to a topic  `homesensors/livingroom/temperaturesensor1/forceupdate` to force an update of the sensor. Your home automation system can subscribe to the measured value, and send commands. A popular MQTT broker is [Mosquitto](https://mosquitto.org/) but there are others as well.
 
