@@ -11,4 +11,4 @@ Some writing rules:
 * Use English language
 * Audience is the not-so-technical user; don't dwell into technicalities when it does not add value for the average user
 * Add examples and different ways of doing things when applicable.
-* Add photos/pictures/screenshots where it makes sense
+* Add photos/pictures/screenshots where it makes sense. Copy paste works in the online editor!
