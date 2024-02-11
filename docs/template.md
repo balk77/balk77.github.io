@@ -4,6 +4,7 @@ title: Template
 nav_order: 99
 ---
 
+1. TOC
 {:toc}
 
 # Heading 1
