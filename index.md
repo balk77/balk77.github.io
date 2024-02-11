@@ -21,13 +21,13 @@ The Button Plus communicates through MQTT. It needs an MQTT back-end and a hast 
 * Some technical know-how helps
 
 ## Home Automation
-The Button Plus interacts with your Home Automation system through MQTT. It can show information present in your Home Automation system on the display and buttons, and it can send button clicks to your Home Automation system. There are various Home Automation solutions available; some are used in combination with others.
+The Button Plus interacts with your Home Automation system through MQTT. It can show information present in your Home Automation system on the display and buttons, and it can send button clicks to your Home Automation system. There are various Home Automation solutions available; some are used in combination with others. Some examples are:
 
 * [Home Assistant](https://www.home-assistant.io/), open source system that also records the historical state of your sensors and equipment
 * [Domoticz](https://www.domoticz.com/), open source system that also records the historical state of your sensors and equipment
 * [Homey](https://homey.app/), closed source hardware platform for home automation that also records the historical state of your sensors and equipment
 * [IO Broker](https://www.iobroker.net/), open source system
-* [Node Red](https://nodered.org/), open source low code visual flow based automation
+* [Node Red](https://nodered.org/), open source low code visual flow based automation. Can be used in combination with the above solutions.
 
 ## about MQTT
 
