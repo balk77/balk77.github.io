@@ -38,4 +38,13 @@ Throughout this documentation we assume a MQTT structure. You are free to choose
 level | topic level | Description | Example
  --- | --- | --- | ---
  1 | `<basetopic>` | Base topic for the Button Plus | `buttonplus/`
+ 2 |`<device>`| Device name| `hall/`
+ 3a |`display/`| Topics for the display| 
+  3b |`button/`| Topics for the buttons | 
+   4 |`<uid>`| Identifier for the item| `3/`
+
+ 
+
+ 
+
  
