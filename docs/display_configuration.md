@@ -13,7 +13,7 @@ nav_order: 40
 - TOC
 {:toc}
 
-The display can show information as individually configured items. The configuration options are described below. The examples below use `<uid>` which is a unique number, but can be for instance two digits. `<device>` is a unique name for your device, for instance `hall`, or `livingroom`.
+The display can show information as individually configured items. The configuration options are described below. The examples below use `<uid>` which is a unique number, but can be for instance two digits. `<device>` is a unique name for your device, for instance `hall`, or `livingroom`. Buttonplus uses so called `eventtypes` internally; they point to a specific action of the Button plus. Eventtype 1 is for instance the click of a button.
 
 ## Value
 The `Value` field has to be provided through an MQTT topic. It is aligned left in the display item. Leave the `MQTT Payload` field empty.
