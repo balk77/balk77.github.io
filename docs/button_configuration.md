@@ -71,7 +71,17 @@ Three pre-configured eventtypes have been setup for red, blue and green. In this
 <img width="716" alt="image" src="https://github.com/balk77/balk77.github.io/assets/10166350/7850a67e-fd66-4248-ad52-c295b43088ff">
 
 ## Led (subscribe)
-The `Led
+The `Led (subscribe)` option lets you switch on and off the wall and front led. The leds will take the configured color when the payload sent to the configured topic is equal to the topic configured; "on" in this example will make the front led red and wall led green.
+
+<img width="716" alt="image" src="https://github.com/balk77/balk77.github.io/assets/10166350/8f6f631c-05c9-427c-82b1-6d9eeab6bcd2">
+
+## RGB Led (subscribe)
+More control over the led color can be obtained with `RGB Led` option. The front and wall led will both switch to the color that is received as payload. Payload 0 will switch off the leds. You have to send the color as a decimal value, `65535` will give a light blueish color for both leds. You can select your color on for instance this site: [https://www.mathsisfun.com/hexadecimal-decimal-colors.html
+](https://www.mathsisfun.com/hexadecimal-decimal-colors.html
+)
+<img width="716" alt="image" src="https://github.com/balk77/balk77.github.io/assets/10166350/18ef5988-49fa-4fb2-8719-d91dc80fb343">
+
+
 
 ### Section 2 level 2
 `### Section 2 level 2`
