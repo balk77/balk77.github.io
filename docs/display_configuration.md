@@ -20,7 +20,7 @@ The `Value` field has to be provided through an MQTT topic. It is aligned left i
 ### Example
 #### topic:
 `buttonplus/<device>/display/<uid>/value`
-#### payload
+#### payload issued by your home automation system
 `19.21346`
 
 ## Label
@@ -28,7 +28,7 @@ The `Label` field can be configured statically in the web interface or dynamical
 ### Example
 #### topic:
 `buttonplus/<device>/display/<uid>/label`
-#### payload
+#### payload issued by your home automation system
 `Room temperature`
 
 ## Unit
@@ -36,7 +36,7 @@ The `Unit` field can be configured statically in the web interface or dynamicall
 ### Example
 #### topic:
 `buttonplus/<device>/display/<uid>/unit`
-#### payload
+#### payload issued by your home automation system
 `°C`
 
 ## Alignment
