@@ -46,18 +46,24 @@ Each button on a bar has a label. This is the main text on the minidisplay on a 
 <img width="193" alt="image" src="https://github.com/balk77/balk77.github.io/assets/10166350/41a24827-3c9d-486e-bd4e-43a9175167d0">
 
 ### Example
+{: .no_toc }
 #### topic:
+{: .no_toc }
 `buttonplus/<device>/button/<buttonid>/label`
 #### payload issued by your home automation system
+{: .no_toc }
 `Porch`
 
 ## Button toplabel
 Each button on a bar has a toplabel. This is the label above the main text on the minidisplay on a bar. The toplabel can be configured statically in the web interface or dynamically through MQTT. 
 
 ### Example
+{: .no_toc }
 #### topic:
+{: .no_toc }
 `buttonplus/<device>/button/<buttonid>/toplabel`
 #### payload issued by your home automation system
+{: .no_toc }
 `Lighting`
 
 ## Clicks
