@@ -18,31 +18,40 @@ The display can show information as individually configured items. The configura
 ## Value
 The `Value` field has to be provided through an MQTT topic. It is aligned left in the display item. Leave the `MQTT Payload` field empty.
 ### Example
+{: .no_toc }
 #### topic:
+{: .no_toc }
 `buttonplus/<device>/display/<uid>/value`
 #### payload issued by your home automation system
+{: .no_toc }
 `19.21346`
 
 ## Label
 The `Label` field can be configured statically in the web interface or dynamically through MQTT. Label is optional. Leave the `MQTT Payload` field empty.
 ### Example
+{: .no_toc }
 #### topic:
+{: .no_toc }
 `buttonplus/<device>/display/<uid>/label`
 #### payload issued by your home automation system
+{: .no_toc }
 `Room temperature`
 
 ## Unit
 The `Unit` field can be configured statically in the web interface or dynamically through MQTT. Unit is optional. It is aligned right in the the display item. Leave the `MQTT Payload` field empty.
 ### Example
+{: .no_toc }
 #### topic:
+{: .no_toc }
 `buttonplus/<device>/display/<uid>/unit`
 #### payload issued by your home automation system
+{: .no_toc }
 `°C`
 
 ## Alignment
 The anchor point of the display item on the display can be selected. Default is top left corner of the display with the top left corner of the display item. Choosing Center places the center of the display item at the center of the display. Static configuration in the Buttonplus WebUI.
 
-`<inser picture>`
+`<insert picture>`
 
 ## x and y offset
 Position of the display item' anchor point relative to the chosen Alignment anchor point. Scale is always 100 by 100. Choosing for instance a center alignment and an x offset of 50 will place the display item 50% outside the display, on the right side. Values of -100 through 100 are accepted. Static configuration in the Buttonplus WebUI, default is 0.
