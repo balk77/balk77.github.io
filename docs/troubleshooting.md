@@ -12,18 +12,30 @@ nav_order: 60
 - TOC
 {:toc}
 
-## Section 1 level 1
-`## Section 1 level 1`
+## Issue: Boot loop
+Your Button Plus is restarting all the time.
 
-content
+### Cause: Power supply
+* Using a USB adapter: 
+  > Try some different power supply's with at least 1A at 5V.
 
-## Section 2 level 1
-`## Section 2 level 1`
+  > Try a different USB-C cable.
 
-content
+  > Try to connect the 3.3v wires to a 3.3v power supply.
+* Using the 3.3v power cord:
+  > Make sure that the power supply can supply at least 1A
 
-### Section 2 level 2
-`### Section 2 level 2`
+  > Try another power supply.
 
-content
+  > In case of long or thin wiring please check the [section below](#cause-long-or-thin-cabling) 
 
+### Cause: Long or thin cabling.
+
+* Long and/or thin wiring will cause a voltage drop over the wire
+  > Put the power supply in the box behind the button plus. If the wiring does not meet the requirements for 230V,
+  > consider adding a 12v (or bigger) power supply and add a LM2596 DC-DC drop down converter behind your button plus.
+  
+  > Increase the voltage a bit but do not go over 3.6v! (see chapter 4.2 of the [ESP32-S3 datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf))
+  
+  > Add a capacitor behind your button plus. I suggest a capacitor of at least 470µF. This will act as a little buffer 
+  > for the initial current.
