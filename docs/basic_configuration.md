@@ -49,8 +49,11 @@ The field ‘SSID’ will be filled with the name of the selected network. Enthe
 
 In case your phone does not reconnect to your home network, you will have to do that manually. The Button+ will give a warning when something went wrong; you can restart the WiFi procedure.
 
-## CONFIGURING YOUR BUTTON+
+## Configuring your Button+
 In this chapter, the basics are discussed. Specific topics are listed in the [display](display_configuration.md) and [button](button_configuration.md) documentation. 
+1. Firmware update
+2. General Configuration
+3. MQTT Broker configuration
 
 In the lower left corner of your Button+ you will find the IP-address that is assigned to the device, either by a DHCP-server or as configured in the previous chapter.
 
@@ -72,3 +75,20 @@ Click on the ‘Firmware’ button. Your firmware version might be different. Cl
 <img width="465" alt="image" src="https://github.com/balk77/balk77.github.io/assets/10166350/3b85616c-86d7-4cff-b149-b9ea74ffb0d9">
 
 The update process will start. The ‘Update Firmware’ button will be greyed out. After a minute or so, the Button+ will restart and firmware version will be updated. During the update process, it is normal to see connection errors at the top of the configuration web page.
+
+### General Settings
+Configure the basics in this screen, such as the device name, location and accent color. There are 4 general topics you can configure (FW 1.11).
+1. Page status, reports the page your Button+ shows (see xyz)
+2. Page set topic, listens to page change commands (see xyz)
+3. Brightness topic for the display (see [display documentation](display_configuration.md))
+4. Brightness topic for the buttons (see [button documentation](button_configuration.md))
+
+![image](https://github.com/balk77/balk77.github.io/assets/10166350/80178a1f-2d38-4c8b-b47e-0d7439218ff5)
+
+### MQTT Broker
+It is essential to configure your Button+ to connect to your own MQTT broker. Open the `MQTT Brokers` menu and add a new broker. Fill in at least the Id and URL. Also add username and password if needed by the broker.
+
+![image](https://github.com/balk77/balk77.github.io/assets/10166350/a8e30dc6-05fb-40aa-93b9-7a79fc457df6)
+
+
+<img width="916" alt="image" src="https://github.com/balk77/balk77.github.io/assets/10166350/55e364ce-64db-4629-9f51-35bc2a94b88f">
