@@ -89,6 +89,3 @@ Configure the basics in this screen, such as the device name, location and accen
 It is essential to configure your Button+ to connect to your own MQTT broker. Open the `MQTT Brokers` menu and add a new broker. Fill in at least the Id and URL. Also add username and password if needed by the broker.
 
 ![image](https://github.com/balk77/balk77.github.io/assets/10166350/a8e30dc6-05fb-40aa-93b9-7a79fc457df6)
-
-
-<img width="916" alt="image" src="https://github.com/balk77/balk77.github.io/assets/10166350/55e364ce-64db-4629-9f51-35bc2a94b88f">
