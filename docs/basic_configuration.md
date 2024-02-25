@@ -49,3 +49,26 @@ The field ‘SSID’ will be filled with the name of the selected network. Enthe
 
 In case your phone does not reconnect to your home network, you will have to do that manually. The Button+ will give a warning when something went wrong; you can restart the WiFi procedure.
 
+## CONFIGURING YOUR BUTTON+
+In this chapter, the basics are discussed. Specific topics are listed in the [display](display_configuration.md) and [button](button_configuration.md) documentation. 
+
+In the lower left corner of your Button+ you will find the IP-address that is assigned to the device, either by a DHCP-server or as configured in the previous chapter.
+
+Open a browser on your computer or mobile phone. In the address bar, type the IP-address and press enter.
+
+A web page will open:
+
+<img width="545" alt="image" src="https://github.com/balk77/balk77.github.io/assets/10166350/59ba77ad-7e06-4df3-a3c0-61c6fc36ecbd">
+
+On the left, you see a live copy of what is displayed on the screen of the Button+. On the right, you see all configuration options. We will briefly discuss them one by one. To open a menu, click on the title.
+
+Note: If you click on a menu item with a down-arrow, it will close other open menus and open a new one. If you click on a blue button with white text, it will open an submenu.
+
+Before we will discuss each topic in the list from top to bottom, we will discuss the topic ‘Firmware’ first. We will upgrade your Button+ to the latest firmware version, so you can enjoy the latest features available. Note that the newest version might be at a higher level than discussed in this manual, so your screens and options will most likely look slightly different from the screenshots in this manual. This manual is based on firmware version 1.09, released in February 2024.
+
+### Firmware
+Click on the ‘Firmware’ button. Your firmware version might be different. Click on the button ‘Update Firmware’.
+
+<img width="465" alt="image" src="https://github.com/balk77/balk77.github.io/assets/10166350/3b85616c-86d7-4cff-b149-b9ea74ffb0d9">
+
+The update process will start. The ‘Update Firmware’ button will be greyed out. After a minute or so, the Button+ will restart and firmware version will be updated. During the update process, it is normal to see connection errors at the top of the configuration web page.
