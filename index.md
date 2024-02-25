@@ -41,10 +41,15 @@ level | topic level | Description | Example
  2 |`<device>`| Device name| `hall/`
  3a |`display/`| Topics for the display| 
   3b |`button/`| Topics for the buttons | 
-   4 |`<uid>`| Identifier for the item| `3/`
+  4 | `<page>` | Page for the Buttonplus |
+   5 |`<uid>`| Identifier for the item| `12/`
+   6 | `<eventtype>`| Type of topic | `value`
 
- 
+#### Examples:
+Configure a display item value to subscribe (listen) to `buttonplus/hall/display/evening/12/value`. This will display the value that is published by your local home automation system. You can do the same with the label and unit field.
+ <img width="646" alt="image" src="https://github.com/balk77/balk77.github.io/assets/10166350/31033bc7-045e-4406-9ae1-553ef15f6578">
 
- 
+Configure a buttons on a bar to publish its state to topic `buttonplus/hall/button/3/state`. Notice that in this example the click and release topics are the same but the payload is different. This is the message published to the topic. This is for button 3.
+<img width="693" alt="image" src="https://github.com/balk77/balk77.github.io/assets/10166350/92faf3c5-391b-46fc-9fc6-19cc725fee2b">
 
  
