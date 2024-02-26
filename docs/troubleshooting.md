@@ -39,4 +39,8 @@ Your Button Plus is restarting all the time.
   
   > Add a capacitor behind your button plus. I suggest a capacitor of at least 1000µF and parallel 100nF. This will act as a little buffer 
   > for the initial current and decouple some noise.
-  
+  >
+
+## Loading the "factory default" settings
+If your Button+ experiences problems, you can (re)set it to "factory default".
+<span style="color:red">some *red* text</span>.
