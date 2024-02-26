@@ -24,6 +24,8 @@ Your new Button+ will show that it is not connected:
 ![](pictures/PXL_20240216_094727167~2-small.jpg)
 
 ### Connect your phone
+**WARNING: Your phone disconnect from your currect wifi network. Make sure you save any unsaved work!**
+
 Open the wifi access point selection screen on your phone, similar to how you would connect to a public hotspot. On an android phone, you can swipe from the top of your screen down. If you use IoS on an Apple iPhone or a different flavour of Androud, it looks different.
 
 The screenshots in these steps are for a version of Android, but are similar to the screens on other operating systems.
