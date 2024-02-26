@@ -89,3 +89,8 @@ Configure the basics in this screen, such as the device name, location and accen
 It is essential to configure your Button+ to connect to your own MQTT broker. Open the `MQTT Brokers` menu and add a new broker. Fill in at least the Id and URL. Also add username and password if needed by the broker.
 
 ![image](https://github.com/balk77/balk77.github.io/assets/10166350/a8e30dc6-05fb-40aa-93b9-7a79fc457df6)
+
+## Pages
+Button+ suports basic page functionality as of firmware version 1.1. This means that you can assign display items to a page; they appear only when the page is active.
+<img width="354" alt="image" src="https://github.com/balk77/balk77.github.io/assets/10166350/8e46c420-a176-49be-a165-a0a149ec19b7">
+
