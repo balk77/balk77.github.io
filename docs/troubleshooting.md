@@ -42,5 +42,16 @@ Your Button Plus is restarting all the time.
   >
 
 ## Loading the "factory default" settings
-If your Button+ experiences problems, you can (re)set it to "factory default".
-<span style="color:red">some *red* text</span>.
+If your Button+ experiences problems, you can reset it to "factory default". **This will not reset the WIFI credentials, these are stored in a different part of the flash memory.**
+
+![reset-small](https://github.com/balk77/balk77.github.io/assets/10166350/d6b4d574-9c1e-4796-a998-eda07cce40e6)
+*Position of CONFIG and RESET buttons*
+
+To (re)set to Factory Default:
+* keep CONFIG pressed
+* press and release RESET button
+* for firmware version 1.081 and lower: wait little moment (one or two seconds is enough) and release CONFIG button
+* for firmare version 1.1 and higher: after the RESET button is released, firmware is restarted and factory default settings will be confirmed by one red flash of LED's.
+
+Your Button+ should now be back to factory default settings. If WIFI credentials were set, you should see time at Amsterdam time zone. If no WIFI crendentials were set, the Button+ is in AP (Access Point) mode, waiting for a connection.
+This procedure will remove all configurations from the Button+. It will not affect the firmware it self. So if you are on version 1.11. you will still be on 1.11 after this procedure. To switch to an other firmware, please use the USB port for flashing firmware of you choice.
